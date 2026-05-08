@@ -11,7 +11,6 @@ window.addEventListener('scroll', () => {
 
         nav.classList.add('glass-panel');
         nav.classList.remove('bg-[#1e293b]', 'shadow-lg');
-
     }
 
 });
