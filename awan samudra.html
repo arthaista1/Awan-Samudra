@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awan Samudra | Exclusive Companion & Professional Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'luxury-dark': '#0f172a', /* Slate 900 */
+                        'luxury-panel': '#1e293b', /* Slate 800 */
+                        'luxury-gold': '#d4af37', /* Metallic Gold */
+                        'luxury-gold-light': '#f3e5ab',
+                    },
+                    fontFamily: {
+                        'serif': ['"Playfair Display"', 'serif'],
+                        'sans': ['Montserrat', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #0f172a;
+            color: #f8fafc;
+        }
+        .gold-gradient-text {
+            background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .glass-panel {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(212, 175, 55, 0.2);
+        }
+    </style>
+</head>
+<body class="font-sans antialiased selection:bg-luxury-gold selection:text-black">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass-panel py-4 transition-all duration-300">
+        <div class="max-w-6xl mx-auto px-6 flex justify-between items-center">
+            <div class="text-2xl font-serif font-bold tracking-widest text-luxury-gold">A.S.</div>
+            <div class="hidden md:flex space-x-8 text-sm font-medium tracking-wider">
+                <a href="#about" class="hover:text-luxury-gold transition-colors">PROFIL</a>
+                <a href="#skills" class="hover:text-luxury-gold transition-colors">KEAHLIAN</a>
+                <a href="#rates" class="hover:text-luxury-gold transition-colors">INVESTASI</a>
+                <a href="#contact" class="hover:text-luxury-gold transition-colors">RESERVASI</a>
+            </div>
+            <a href="#contact" class="md:hidden text-luxury-gold text-sm tracking-widest border border-luxury-gold px-4 py-2">KONTAK</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
+        <div class="absolute inset-0 z-0 opacity-20">
+            <!-- Abstract background pattern -->
+            <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-luxury-panel to-luxury-dark"></div>
+        </div>
+        
+        <div class="relative z-10 max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-8 order-2 md:order-1">
+                <div class="space-y-2">
+                    <p class="text-luxury-gold tracking-[0.3em] text-sm md:text-base uppercase">Eksklusif & Profesional</p>
+                    <h1 class="text-5xl md:text-7xl font-serif font-bold leading-tight">Awan <br><span class="gold-gradient-text">Samudra</span></h1>
+                </div>
+                <p class="text-gray-400 text-lg md:text-xl font-light leading-relaxed max-w-md">
+                    Dedikasi eksklusif untuk menemani keseharian dan agenda penting Anda. Menghadirkan ketenangan, perlindungan, dan pelayanan kelas atas untuk kalangan elit.
+                </p>
+                <div class="pt-4">
+                    <a href="#rates" class="inline-block bg-luxury-gold text-black px-8 py-4 font-semibold tracking-wider hover:bg-yellow-500 transition-all duration-300">
+                        LIHAT LAYANAN
+                    </a>
+                </div>
+            </div>
+
+            <!-- Profile Image Area -->
+            <div class="order-1 md:order-2 flex justify-center relative">
+                <!-- Decorative Frame -->
+                <div class="absolute inset-0 border-2 border-luxury-gold/30 transform translate-x-4 translate-y-4 rounded-sm"></div>
+                <!-- 
+                  CATATAN UNTUK PENGGUNA: 
+                  Ganti 'src' di bawah ini dengan URL foto asli Anda.
+                  Karena sistem tidak dapat memuat file lokal Anda secara langsung di live preview ini, 
+                  saya menggunakan placeholder abu-abu elegan, namun desainnya sudah disiapkan sempurna untuk rasio foto potret Anda.
+                -->
+                <div class="relative w-72 h-96 md:w-96 md:h-[32rem] bg-luxury-panel overflow-hidden shadow-2xl rounded-sm z-10">
+                    <img src="rizki 2.jpeg" 
+                         alt="Awan Samudra" 
+                         class="object-cover w-full h-full opacity-90 hover:opacity-100 transition-opacity duration-500">
+                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 to-transparent p-6 text-center">
+                        <p class="text-luxury-gold font-serif italic text-lg">Sigma Male Persona</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-luxury-dark border-t border-white/5">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-serif font-bold mb-4">Profil <span class="text-luxury-gold">Pribadi</span></h2>
+                <div class="w-16 h-1 bg-luxury-gold mx-auto"></div>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16 text-center">
+                <div class="glass-panel p-6 rounded-sm">
+                    <div class="text-3xl text-luxury-gold mb-2 font-serif">29</div>
+                    <div class="text-sm tracking-widest text-gray-400 uppercase">Tahun</div>
+                </div>
+                <div class="glass-panel p-6 rounded-sm">
+                    <div class="text-3xl text-luxury-gold mb-2 font-serif">173<span class="text-xl">cm</span></div>
+                    <div class="text-sm tracking-widest text-gray-400 uppercase">Tinggi Badan</div>
+                </div>
+                <div class="glass-panel p-6 rounded-sm">
+                    <div class="text-3xl text-luxury-gold mb-2 font-serif">Ideal</div>
+                    <div class="text-sm tracking-widest text-gray-400 uppercase">Proporsi Fisik</div>
+                </div>
+                <div class="glass-panel p-6 rounded-sm">
+                    <div class="text-3xl text-luxury-gold mb-2 font-serif">90%</div>
+                    <div class="text-sm tracking-widest text-gray-400 uppercase">Success Rate Pekerjaan</div>
+                </div>
+            </div>
+
+            <div class="glass-panel p-8 md:p-12 leading-relaxed text-gray-300 font-light rounded-sm">
+                <p class="mb-6 text-lg">
+                    Saya adalah seorang pria dengan kepribadian <strong class="text-white font-medium">Sigma</strong>—pendiam, tenang, penurut pada instruksi, namun sangat mematikan dalam hal kompetensi dan penyelesaian masalah. Memiliki penampilan <em>good looking</em>, kulit putih bersih tanpa cacat, dan proporsi fisik yang selalu dijaga dengan baik.
+                </p>
+                <p class="text-lg">
+                    Kehadiran saya didedikasikan secara khusus untuk <strong>Wanita Mapan, Eksekutif, dan kalangan Old Money</strong> yang membutuhkan pendampingan berkelas, asisten pribadi, maupun representasi pria elegan di berbagai agenda, terutama di kala senggang pada <strong>akhir pekan (Weekend)</strong>.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-24 bg-[#141d2f]">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-serif font-bold mb-4">Kemampuan <span class="text-luxury-gold">Multidimensi</span></h2>
+                <div class="w-16 h-1 bg-luxury-gold mx-auto"></div>
+                <p class="mt-4 text-gray-400 max-w-2xl mx-auto">Lebih dari sekadar pendampingan, saya menawarkan keterampilan praktis dan profesional untuk mempermudah hidup Anda.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Skill 1 -->
+                <div class="glass-panel p-8 hover:-translate-y-2 transition-transform duration-300 border-t-4 border-t-luxury-gold">
+                    <svg class="w-12 h-12 text-luxury-gold mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 8h4M10 12h4"></path> <!-- Abstract representation of driving/tech -->
+                    </svg>
+                    <h3 class="text-xl font-serif font-bold mb-3">VIP Chauffeur</h3>
+                    <p class="text-gray-400 font-light text-sm">Kemampuan mengemudi yang halus, aman, dan sangat mengenal jalanan. Memastikan perjalanan Anda menuju agenda penting selalu nyaman, tepat waktu, dan sangat privat.</p>
+                </div>
+
+                <!-- Skill 2 -->
+                <div class="glass-panel p-8 hover:-translate-y-2 transition-transform duration-300 border-t-4 border-t-luxury-gold">
+                    <svg class="w-12 h-12 text-luxury-gold mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                    </svg>
+                    <h3 class="text-xl font-serif font-bold mb-3">Technical & AC Service</h3>
+                    <p class="text-gray-400 font-light text-sm">Mandiri dan cekatan. Memiliki kemampuan teknis menangani perbaikan, kelistrikan, hingga servis AC. Anda tidak perlu khawatir tentang masalah teknis di rumah atau properti Anda.</p>
+                </div>
+
+                <!-- Skill 3 -->
+                <div class="glass-panel p-8 hover:-translate-y-2 transition-transform duration-300 border-t-4 border-t-luxury-gold">
+                    <svg class="w-12 h-12 text-luxury-gold mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"></path>
+                    </svg>
+                    <h3 class="text-xl font-serif font-bold mb-3">Public Speaking</h3>
+                    <p class="text-gray-400 font-light text-sm">Kemampuan komunikasi verbal yang elegan dan tertata. Siap menjadi representasi Anda, berhadapan dengan relasi bisnis, atau tampil karismatik mendampingi Anda di acara sosialita.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="rates" class="py-24 bg-luxury-dark border-t border-white/5 relative">
+        <div class="max-w-6xl mx-auto px-6 relative z-10">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-serif font-bold mb-4">Investasi <span class="text-luxury-gold">Layanan Eksklusif</span></h2>
+                <div class="w-16 h-1 bg-luxury-gold mx-auto"></div>
+                <p class="mt-4 text-gray-400 max-w-xl mx-auto">Pilih tingkat pendampingan yang sesuai dengan kebutuhan dan gaya hidup Anda. Kerahasiaan (Privacy) dan kenyamanan Anda adalah prioritas mutlak.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 items-center">
+                
+                <!-- Short Term -->
+                <div class="glass-panel p-8 border border-white/10 hover:border-luxury-gold/50 transition-colors">
+                    <h3 class="text-2xl font-serif font-bold text-white mb-2">Short Term</h3>
+                    <p class="text-luxury-gold mb-6 font-medium">Layanan Per Jam</p>
+                    <div class="text-4xl font-light mb-6">Rp 5 Juta <span class="text-sm text-gray-400">/ Jam</span></div>
+                    <ul class="space-y-4 mb-8 text-gray-400 text-sm font-light">
+                        <li class="flex items-center"><span class="text-luxury-gold mr-2">✓</span> Pendampingan acara instan</li>
+                        <li class="flex items-center"><span class="text-luxury-gold mr-2">✓</span> VIP Chauffeur on demand</li>
+                        <li class="flex items-center"><span class="text-luxury-gold mr-2">✓</span> Penampilan elegan & rapi</li>
+                    </ul>
+                    <a href="mailto:dafinasafana@gmail.com?subject=Inquiry: Short Term Service" class="block w-full py-3 text-center border border-luxury-gold text-luxury-gold hover:bg-luxury-gold hover:text-black transition-colors">Pesan Sekarang</a>
+                </div>
+
+                <!-- Monthly (Premium/Center) -->
+                <div class="glass-panel p-8 border-2 border-luxury-gold transform md:-translate-y-4 shadow-[0_0_30px_rgba(212,175,55,0.15)] relative">
+                    <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-luxury-gold text-black px-4 py-1 text-xs font-bold tracking-widest uppercase">
+                        Sangat Direkomendasikan
+                    </div>
+                    <h3 class="text-2xl font-serif font-bold text-white mb-2">Bulanan (PO)</h3>
+                    <p class="text-luxury-gold mb-6 font-medium">Pre-Order Exclusive</p>
+                    <div class="text-4xl font-bold text-luxury-gold mb-6">Rp 45 Juta <span class="text-sm text-gray-400 font-light">/ Bulan</span></div>
+                    <ul class="space-y-4 mb-8 text-gray-300 text-sm font-light">
+                        <li class="flex items-center"><span class="text-luxury-gold mr-2">✓</span> <strong>8 Kali Pertemuan</strong> dalam sebulan</li>
+                        <li class="flex items-center"><span class="text-luxury-gold mr-2">✓</span> Prioritas jadwal akhir pekan (Weekend)</li>
+                        <li class="flex items-center"><span class="text-luxury-gold mr-2">✓</span> Layanan Asisten Pribadi penuh</li>
+                        <li class="flex items-center"><span class="text-luxury-gold mr-2">✓</span> Technical support (Kelistrikan/AC)</li>
+                        <li class="flex items-center"><span class="text-luxury-gold mr-2">✓</span> Pendampingan event sosial & relasi</li>
+                    </ul>
+                    <a href="mailto:dafinasafana@gmail.com?subject=Inquiry: Monthly Exclusive Package" class="block w-full py-4 text-center bg-luxury-gold text-black font-bold tracking-wider hover:bg-yellow-500 transition-colors">RESERVASI BULANAN</a>
+                </div>
+
+                <!-- Long Term -->
+                <div class="glass-panel p-8 border border-white/10 hover:border-luxury-gold/50 transition-colors">
+                    <h3 class="text-2xl font-serif font-bold text-white mb-2">Long Term</h3>
+                    <p class="text-luxury-gold mb-6 font-medium">Per Agenda / Event</p>
+                    <div class="text-4xl font-light mb-6">Rp 15 Juta <span class="text-sm text-gray-400">/ Agenda</span></div>
+                    <ul class="space-y-4 mb-8 text-gray-400 text-sm font-light">
+                        <li class="flex items-center"><span class="text-luxury-gold mr-2">✓</span> Pendampingan full-day/event</li>
+                        <li class="flex items-center"><span class="text-luxury-gold mr-2">✓</span> Dedikasi 100% pada satu hari penuh</li>
+                        <li class="flex items-center"><span class="text-luxury-gold mr-2">✓</span> Public speaking / representasi</li>
+                    </ul>
+                    <a href="mailto:dafinasafana@gmail.com?subject=Inquiry: Long Term Service" class="block w-full py-3 text-center border border-luxury-gold text-luxury-gold hover:bg-luxury-gold hover:text-black transition-colors">Pesan Sekarang</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 bg-gradient-to-b from-[#141d2f] to-black">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-4xl md:text-5xl font-serif font-bold mb-6">Privasi Anda <span class="text-luxury-gold">Terjamin</span></h2>
+            <p class="text-gray-400 font-light text-lg mb-12">Setiap komunikasi dan kesepakatan dijaga dengan tingkat kerahasiaan tertinggi. Hubungi saya secara langsung untuk mendiskusikan kebutuhan eksklusif Anda.</p>
+            
+            <a href="mailto:dafinasafana@gmail.com" class="inline-flex items-center justify-center px-8 py-5 border-2 border-luxury-gold text-luxury-gold hover:bg-luxury-gold hover:text-black transition-all duration-300 group">
+                <svg class="w-6 h-6 mr-3 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                </svg>
+                <span class="text-lg tracking-wider font-medium">dafinasafana@gmail.com</span>
+            </a>
+            <p class="mt-8 text-sm text-gray-500 font-light italic">* Hanya menerima klien perempuan. Ketersediaan fokus pada akhir pekan (Weekend).</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black py-8 border-t border-white/5 text-center">
+        <p class="text-gray-600 text-sm tracking-widest uppercase font-light">&copy; 2026 Awan Samudra. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Script for smooth nav background -->
+    <script>
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('bg-[#1e293b]', 'shadow-lg');
+                nav.classList.remove('glass-panel');
+            } else {
+                nav.classList.add('glass-panel');
+                nav.classList.remove('bg-[#1e293b]', 'shadow-lg');
+            }
+        });
+    </script>
+</body>
+</html>
